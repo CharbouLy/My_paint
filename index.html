@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>My_Paint</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style/style.css" type="text/css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="script/mypaint.js"></script>
+    </head>
+    <body>
+        <h1>Peinture Brico Deco Charbelo</h1>
+
+        <canvas id="canvas" width="800" height="500"></canvas>
+
+        <input type="color" id="color_choice" value="#6495ED" name="color_choice">
+        <input type="color" id="rempli_choice" value="#6495ED" name="rempli_choice">
+        <input type="range" id="size_choice" min="1" max="40" value="10"/>
+        <label for="rempli">Formes pleines :</label>
+        <input type="checkbox" name="rempli" id="rempli">
+
+        <button type="button" id="crayon" class="button blue">Crayon</button>
+        <button type="button" id="trait" class="button blue">Trait</button>
+        <button type="button" id="rectangle" class="button blue">Rectangle</button>
+        <button type="button" id="cercle" class="button blue">Cercle</button>
+        <button type="button" id="gomme" class="button blue">Gomme</button>
+        <br><br>
+        <button type="button" id="clear" class="button blue">Clear</button>
+    </body>
+</html>
